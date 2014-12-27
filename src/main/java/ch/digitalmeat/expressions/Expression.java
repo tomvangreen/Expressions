@@ -5,6 +5,13 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Stack;
 
+/**
+ * An Expression is a simple mathematicel expression converted to a reverse
+ * polish notation stack, which can be evaluated easily at runtime.
+ * 
+ * @author atombrot
+ *
+ */
 public class Expression {
 	private List<Token> tokens;
 	private final List<Double> arguments = new ArrayList<Double>();
