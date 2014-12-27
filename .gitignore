@@ -1,5 +1,19 @@
-.gradle
+*.class
+.classpath
+.project
+gradle.properties
+.gradle/
+.settings/
+bin/
 build/
+testdata/
 
-# Ignore Gradle GUI config
-gradle-app.setting
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
